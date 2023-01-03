@@ -8,6 +8,8 @@
 - 선택 정렬 : 가장 작은 것을 선택해서 앞으로 보낸다
 - 가장 작은 데이터를 앞으로 보내는 과정을 N-1번 반복하면 정렬이 완료됨
 
+<img width="480" alt="image" src="https://user-images.githubusercontent.com/91522259/210287841-225ccca9-4fcb-48e7-9c60-a174e762fc4e.png">
+
 1️⃣ 현재 정렬되지 않은 가장 맨 앞의 인덱스를 선택한다
 
 2️⃣ 현재 인덱스의 다음 인덱스부터 끝까지 가장 작은 값을 찾으면 현재 인덱스의 값과 바꿔준다
@@ -35,6 +37,8 @@ for i in range(len(array)):
 - 삽입 정렬 : 특정한 데이터를 적절한 위치에 삽입한다
 - 특정한 데이터가 적절한 위치에 들어가기 이전에, 그 앞까지의 데이터는 이미 정렬되어 있다고 가정
 - 특히 ‘데이터가 거의 정렬 되어 있을 때' 매우 효율적
+
+<img width="558" alt="image" src="https://user-images.githubusercontent.com/91522259/210287906-cb307217-f32a-45f5-b2eb-5cc0437d3b06.png">
 
 1️⃣ 두 번째 원소부터 시작
 
@@ -64,7 +68,9 @@ for i in range(1, len(array)):
 - pivot을 기준으로 pivot보다 작은 요소들은 모두 pivot의 왼쪽으로 옮기고 pivot보다 큰 요소들은 모두 pivot의 오른쪽으로 옮긴다
 - 분할정복 알고리즘
 
-1️⃣ 분할
+<img width="537" alt="image" src="https://user-images.githubusercontent.com/91522259/210288024-b5255fe1-f6c8-4347-84bd-e9f8aa8fcde2.png">
+
+1️⃣ 분할
 
 피벗(교환하기 위한 기준) 설정 → 왼쪽에서부터 피벗보다 큰 데이터 찾고, 오른쪽에서부터 피벗보다 작은 데이터 찾기 → 큰 데이터와 작은 데이터의 위치를 서로 교환 → … → 두 값이 엇갈린 경우 작은 데이터와 피벗의 위치를 서로 변경
 
@@ -138,11 +144,17 @@ print(quick_sort(array))
 - 모든 범위를 담을 수 있는 크기의 리스트(배열)를 선언해야 한다
 - 별도의 리스트를 선언하고 그 안에 정렬에 대한 정보를 담는다
 
+
 1️⃣ 처음에는 리스트의 모든 데이터가 0이 되도록 초기화
+<img width="400" alt="image" src="https://user-images.githubusercontent.com/91522259/210288309-9e1d65a0-be16-4fba-9415-ccc014e52c3c.png">
+
 
 2️⃣ 데이터를 하나씩 확인하며 데이터의 값과 동일한 인덱스의 데이터를 1씩 증가 -> 반복
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/91522259/210288274-b34989bc-3117-448e-94d4-ed0b9cf760b8.png">
 
 3️⃣ 리스트의 첫 번째 데이터부터 하나씩 그 값만큼 인덱스 출력
+<img width="600" alt="image" src="https://user-images.githubusercontent.com/91522259/210288288-f470aa61-ebe4-4fab-86f3-ee36c3a9677b.png">
+
 
 ```python
 # 모든 원소의 값이 0보다 크거나 같다고 가정
@@ -172,6 +184,8 @@ for i in range(len(count)): # 리스트에 기록된 정렬 정보 확인
 ### 1) 버블 정렬 (Bubble Sort)
 
 - 현재 원소와 다음 원소를 비교하여 조건에 맞으면 교환하는 식의 정렬
+<img width="688" alt="image" src="https://user-images.githubusercontent.com/91522259/210288347-9bdf1557-4589-4f48-a393-7fe208275c40.png">
+
 
 ```python
 def bubble_sort(arr):
@@ -187,6 +201,8 @@ def bubble_sort(arr):
   Divide(분할) : n개의 원소를 갖는 배열을 n/2개의 원소를 갖는 작은배열 2개로 나눈다
   Conquer(정복) : 각각의 작은 배열들을 정렬한다
   Combine(병합) : 정렬된 작은 배열들을 병합한다
+  
+<img width="664" alt="image" src="https://user-images.githubusercontent.com/91522259/210288396-3dab48ae-4add-42d6-b290-cc3cae4bfbb0.png">
 
 ```python
 def merge_sort(arr):
@@ -283,8 +299,20 @@ print(result) // [('바나나',2), ('당근',3), ('사과',5)]
    퀵정렬 기반의 정렬 기법으로는 풀 수 없으며 계수정렬 등의 다른 정렬 알고리즘을 이용하거나
    문제에서 기존에 알려진 알고리즘의 구조적인 개선을 거쳐야 풀 수 있다
 
-📑 참고
+📑 참고 및 출처
 
 이것이 취업을 위한 코딩 테스트다 with 파이썬
 
 https://code-lab1.tistory.com/24
+
+https://gmlwjd9405.github.io/2018/05/06/algorithm-selection-sort.html 선택정렬 그림
+
+https://gmlwjd9405.github.io/2018/05/06/algorithm-insertion-sort.html 삽입정렬 그림
+
+https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html 퀵정렬 그림
+
+https://velog.io/@luvlik207/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98-%EC%A0%95%EB%A6%AC-%EA%B3%84%EC%88%98-%EC%A0%95%EB%A0%ACCounting-Sort 계수정렬 그림
+
+https://gmlwjd9405.github.io/2018/05/06/algorithm-bubble-sort.html 버블정렬 그림
+
+https://gmlwjd9405.github.io/2018/05/08/algorithm-merge-sort.html 합병정렬 그림
