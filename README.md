@@ -21,37 +21,42 @@
 | 10815 |   숫자 카드    |  ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |   ✅   |
 
 ### week2 : 스택, 큐, 덱, 우선순위큐
+
 ### 1) 스택
-|   #   |      Title      |                               Difficulty                               | Status |
-| :---: | :-------------: | :--------------------------------------------------------------------: | :----: |
-| 9012  |      괄호       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
-| 10828 |      스택       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
-| 10773 |      제로       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 1874  |    스택 수열    | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |
+
+|   #   |   Title   |                               Difficulty                               | Status |
+| :---: | :-------: | :--------------------------------------------------------------------: | :----: |
+| 9012  |   괄호    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
+| 10828 |   스택    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
+| 10773 |   제로    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
+| 1874  | 스택 수열 | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |
 
 ### 2) 큐
-|   #   |      Title      |                               Difficulty                               | Status |
-| :---: | :-------------: | :--------------------------------------------------------------------: | :----: |
-| 10845 |       큐        | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 2164  |      카드2      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 11866 | 요세푸스 문제 0 |  ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |
-| 15235 | Olympiad Pizza  |  ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |
+
+|   #   |      Title      |                              Difficulty                               | Status |
+| :---: | :-------------: | :-------------------------------------------------------------------: | :----: |
+| 10845 |       큐        | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat) |   ✅   |
+| 2164  |      카드2      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat) |   ✅   |
+| 11866 | 요세푸스 문제 0 | ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |
+| 15235 | Olympiad Pizza  | ![Python](https://img.shields.io/badge/SILVER%20V-A3A3A3?style=flat)  |
 
 ### 3) 덱
-|   #   |      Title      |                               Difficulty                               | Status |
-| :---: | :-------------: | :--------------------------------------------------------------------: | :----: |
-| 10866 |       덱        | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 1835  |      카드       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 1021  |   회전하는 큐   | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 2346  |  풍선 터뜨리기  | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |
+
+|   #   |     Title     |                               Difficulty                               | Status |
+| :---: | :-----------: | :--------------------------------------------------------------------: | :----: |
+| 10866 |      덱       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
+| 1835  |     카드      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
+| 1021  |  회전하는 큐  | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
+| 2346  | 풍선 터뜨리기 | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |
 
 ### 4) 우선순위 큐
-|   #   |      Title      |                               Difficulty                               | Status |
-| :---: | :-------------: | :--------------------------------------------------------------------: | :----: |
-| 1927  |     최소 힙     | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat)  |
-| 11279 |     최대 힙     | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat)  |
-|11286|절댓값 힙|![Python](https://img.shields.io/badge/SILVER%20I-A3A3A3?style=flat)
-|2075|N번째 큰 수|![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat)
+
+|   #   |    Title    |                              Difficulty                               | Status |
+| :---: | :---------: | :-------------------------------------------------------------------: | :----: |
+| 1927  |   최소 힙   | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |
+| 11279 |   최대 힙   | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |
+| 11286 |  절댓값 힙  | ![Python](https://img.shields.io/badge/SILVER%20I-A3A3A3?style=flat)  |
+| 2075  | N번째 큰 수 | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |
 
 <!--
 금: #D5A11E
