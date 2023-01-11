@@ -2,7 +2,7 @@
 
 알고리즘 공부를 열심히 해보자 😋
 
-### week1 : [정렬](https://github.com/hanueleee/algorithm-study/blob/main/sort/sort.md)
+### week1 : [정렬](https://github.com/hanueleee/algorithm/blob/main/sort/sort.md)
 
 |   #   |     Title      |                               Difficulty                               | Status |
 | :---: | :------------: | :--------------------------------------------------------------------: | :----: |
@@ -22,7 +22,7 @@
 
 ### week2 : 스택, 큐, 덱, 우선순위큐
 
-### 1) 스택
+### 1) [스택](https://github.com/hanueleee/algorithm/blob/main/stack/stack.md)
 
 |   #   |   Title   |                               Difficulty                               | Status |
 | :---: | :-------: | :--------------------------------------------------------------------: | :----: |
@@ -31,7 +31,7 @@
 | 10773 |   제로    | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
 | 1874  | 스택 수열 | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |
 
-### 2) 큐
+### 2) [큐](https://github.com/hanueleee/algorithm/blob/main/queue/queue.md)
 
 |   #   |      Title      |                              Difficulty                               | Status |
 | :---: | :-------------: | :-------------------------------------------------------------------: | :----: |
@@ -44,8 +44,8 @@
 
 |   #   |     Title     |                               Difficulty                               | Status |
 | :---: | :-----------: | :--------------------------------------------------------------------: | :----: |
-| 10866 |      덱       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
-| 1835  |     카드      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
+| 10866 |      덱       | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
+| 1835  |     카드      | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |   ✅   |
 | 1021  |  회전하는 큐  | ![Python](https://img.shields.io/badge/SILVER%20IV-A3A3A3?style=flat)  |
 | 2346  | 풍선 터뜨리기 | ![Python](https://img.shields.io/badge/SILVER%20III-A3A3A3?style=flat) |
 
