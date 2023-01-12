@@ -53,8 +53,8 @@
 
 |   #   |    Title    |                              Difficulty                               | Status |
 | :---: | :---------: | :-------------------------------------------------------------------: | :----: |
-| 1927  |   최소 힙   | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |
-| 11279 |   최대 힙   | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |
+| 1927  |   최소 힙   | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |   ✅   |
+| 11279 |   최대 힙   | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |   ✅   |
 | 11286 |  절댓값 힙  | ![Python](https://img.shields.io/badge/SILVER%20I-A3A3A3?style=flat)  |
 | 2075  | N번째 큰 수 | ![Python](https://img.shields.io/badge/SILVER%20II-A3A3A3?style=flat) |
 
